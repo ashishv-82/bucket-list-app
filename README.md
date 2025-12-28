@@ -1,17 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Bucket List Tracker ☁️
 
-Currently, two official plugins are available:
+### Overview
+This project is a **Bucket List Tracker** application built with **React + Vite** and deployed on AWS Amplify. By building this app, you will learn how to create modern, serverless applications using AWS services.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+### Steps to Build 👩‍💻
+1. **Develop the Application:** Build a bucket list tracker using React.
+2. **Version Control:** Initialize a GitHub repository and connect it to your local project.
+3. **Frontend Hosting:** Host the frontend on AWS Amplify Hosting.
+4. **Authentication:** Use Amplify Studio or Amplify CLI to integrate Amplify Authentication for user login and signup.
+5. **API Integration:** Create an AWS AppSync service to build and manage a GraphQL API, and define a GraphQL schema for DynamoDB integration.
+6. **Backend Deployment:** Deploy the backend on AWS Amplify to handle data storage and server-side logic.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### Services Used 🛠
+- **AWS Amplify:** For deploying frontend and backend services.
+- **AWS AppSync:** To simplify building and managing scalable GraphQL APIs.
+- **GraphQL API:** Allows clients to request only the data they need (API & Schema).
+- **DynamoDB:** For storing and managing bucket list items (Database).
+- **S3 Bucket:** For storage of user images (Storage).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### Architecture Design
+Below is the architecture design for the Bucket List Tracker app:
+
+![Architecture Diagram](images/architecture.png)
+
+---
+
+### Final App Output
+Here is what the final app looks like in action:
+
+![Final App Screenshot](images/final-app.jpg)
+
 
