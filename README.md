@@ -37,4 +37,6 @@ Here is what the final app looks like in action:
 
 ![Final App Screenshot](images/final-app.jpg)
 
+## License
 
+MIT 
